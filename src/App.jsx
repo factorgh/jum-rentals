@@ -58,7 +58,7 @@ const App = () => {
               <img
                 src="https://images.unsplash.com/photo-1600244887665-65c86a4e25ec?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9yJTIwcmVudHxlbnwwfHwwfHx8MA%3D%3D"
                 alt="Jump Company"
-                className="rounded-[20px] w-80 h-80 m-3 p-3"
+                className="rounded-[20px] w-96 h-96 m-3 p-3"
               />
             </div>
           </div>
