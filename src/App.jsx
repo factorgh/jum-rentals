@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="jump-company-container">
       <nav className="navbar">
-        <div className="logo">The Jump Rentals</div>
+        <div className="logo">The Jump Party Rentals</div>
         <ul className="nav-links">
           <li>
             <a href="/">Home</a>
@@ -23,7 +23,7 @@ const App = () => {
       </nav>
       <div className="content">
         <div className="text-section">
-          <h1>Welcome to The Jump Rentals!</h1>
+          <h1>Welcome to The Jump Party Rentals!</h1>
           <p>
             At The Jump Company, we believe that every celebration deserves a
             splash of fun! Serving Atlanta and the surrounding areas, we
@@ -113,7 +113,7 @@ const App = () => {
       <footer className="footer">
         <div className="footer-content">
           <p>
-            &copy; {new Date().getFullYear()} The Jump Rentals. All rights
+            &copy; {new Date().getFullYear()} The Jump Party Rentals. All rights
             reserved.
           </p>
           <ul className="footer-links">
