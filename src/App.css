@@ -1,0 +1,99 @@
+.jump-company-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5; /* Professional background color */
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001529; /* Dark background for navbar */
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #1890ff; /* Change color on hover */
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Define a two-column grid */
+  gap: 20px; /* Space between grid items */
+  margin-top: 20px;
+}
+
+.text-section {
+  padding: 20px;
+  background: #ffffff; /* Optional background for better contrast */
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.image-section {
+  padding: 20px;
+  background: #ffffff; /* Optional background for better contrast */
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.form-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #ffffff; /* White background for the form section */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #001529; /* Dark background for footer */
+  color: white; /* Text color for footer */
+  padding: 20px; /* Padding for footer */
+  text-align: center; /* Center the text */
+  position: relative; /* Allow absolute positioning of inner elements if needed */
+}
+
+.footer-content {
+  max-width: 1200px; /* Limit the width of footer content */
+  margin: 0 auto; /* Center align the footer content */
+}
+
+.footer-links {
+  list-style: none; /* Remove bullet points from list */
+  display: flex; /* Use flex for footer links */
+  justify-content: center; /* Center align links */
+  margin: 10px 0; /* Margin around links */
+  padding: 0; /* Remove padding */
+}
+
+.footer-links li {
+  margin: 0 15px; /* Margin between links */
+}
+
+.footer-links li a {
+  color: white; /* Color for footer links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.footer-links li a:hover {
+  color: #1890ff; /* Change color on hover */
+}
