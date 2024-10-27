@@ -58,7 +58,7 @@ const App = () => {
               <img
                 src="https://media.istockphoto.com/id/483051167/photo/children-in-bounce-house.webp?a=1&b=1&s=612x612&w=0&k=20&c=g1_MEnI89yeDIm3D1ZBr0Is-fE9o9tYc5NOi5ciKRuA="
                 alt="Jump Company"
-                className="rounded-[20px] w-96 h-96 m-3 p-3"
+                className="rounded-[20px] w-96 h-96 m-3 p-3 object-cover"
               />
             </div>
           </div>
